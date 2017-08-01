@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="vendor/chai/chai.js"></script>
+	<script src="vendor/mocha/mocha.js"></script>
+	<script>
+		mocha.setup('bdd');
+
+		var assert = chai.assert;
+		var expect = chai.expect;
+	</script>
+
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="vendor/mocha/mocha.css">
+	
+	<title>Kata Prime Factors</title>
+</head>
+<body>
+	<div id="mocha"></div>
+
+	<script type="text/javascript" src="/js/factors.js"></script>
+	<script type="text/javascript" src="/spec/factors.js"></script>
+	<script>
+		mocha.run();
+	</script>
+</body>
+</html>

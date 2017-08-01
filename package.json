@@ -1,0 +1,24 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "js code kata",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp tdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azakharow/kata-example.git"
+  },
+  "author": "Andrey <andrey@competa.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azakharow/kata-example/issues"
+  },
+  "homepage": "https://github.com/azakharow/kata-example#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0"
+  }
+}

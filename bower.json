@@ -1,0 +1,23 @@
+{
+  "name": "kata",
+  "authors": [
+    "Andrey <andrey@competa.com>"
+  ],
+  "description": "js code kata",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "enstain.pro",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
